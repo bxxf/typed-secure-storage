@@ -2,6 +2,9 @@
 
 Typed Secure Storage is a utility for secure, encrypted storage in the browser with type definition schema. It is built on top of the Web Crypto API and Local Storage. It is designed to be simple to use and easy to integrate into existing projects.
 
+<img src="https://github.com/bxxf/typed-secure-storage/assets/43238984/eeec9a27-74e8-4534-b066-e7f035ea08d4" width="50%">
+
+
 ## Features
 
 - **Type Definition Schema**: Easily define the schema of the data you want to store and retrieve.
