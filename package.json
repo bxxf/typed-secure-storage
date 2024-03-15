@@ -1,0 +1,14 @@
+{
+  "name": "typed-secure-storage",
+  "author": "Filip Brebera <breberaf@gmail.com>",
+  "private": false,
+  "module": "index.ts",
+  "version": "0.0.7",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
