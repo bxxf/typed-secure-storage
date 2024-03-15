@@ -3,7 +3,7 @@
   "author": "Filip Brebera <breberaf@gmail.com>",
   "private": false,
   "module": "index.ts",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "devDependencies": {
     "bun-types": "latest"

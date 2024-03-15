@@ -88,11 +88,7 @@ class EncryptedStorage<
     key?: string
   ): Promise<S[T] & { key: string }> {
     const finalKey = key || crypto.randomUUID();
-    if ((await this.exists(tableName, finalKey)) && key != undefined) {
-      throw new Error(
-        `Key ${finalKey} already exists in table ${String(tableName)}`
-      );
-    } else if ((await this.exists(tableName, finalKey)) && key == undefined) {
+    if ((await this.exists(tableName, finalKey)) && key == undefined) {
       return this.set(tableName, value);
     }
     const encryptedValue =
