@@ -41,7 +41,7 @@ import { createTypedSecureStorage } from "typed-secure-storage";
 const secretKey = "your-secret-key"; // Replace with your secret key
 const salt = "your-salt"; // Replace with your salt
 
-const storage = await createEncryptedStorage<Schema>(secretKey, salt);
+const storage = await createTypedSecureStorage<Schema>(secretKey, salt);
 ```
 
 3. **Use the storage**
